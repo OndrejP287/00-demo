@@ -38,3 +38,27 @@ erfolgreichen Tests angezeigt werden.
 Ein Test beschreibt immer was er überprüfen möchte. Wenn der Test fehl schlägt,
 dann haben Sie die Anweisung nicht genau befolgt, oder auch die Aufgabe noch
 garnicht bearbeitet.
+
+## Aufgaben
+
+Hier finden Sie einige Aufgaben die Ihnen den Einstieg in `HTML` erleichtern
+sollen. Unterlagen zur Theorie wie `HTML` funktioniert finden Sie
+[hier](https://gymmu.github.io/gym-inf).
+
+### Aufgabe 01
+
+Fügen Sie Ihren Namen im Titel ein, und ersetzen Sie dabei die `...`.
+
+### Aufgabe 02
+
+Fügen Sie ein `<section>`-Tag in die Webseite ein, und füllen Sie es mit einem
+sehr kurzen Text.
+
+Platzieren Sie dieses `<section>`-Tag direkt unterhalb vom `<h1>`-Tag, noch
+innerhalb vom `<main>`-Tag.
+
+### Aufgabe 03
+
+Sie sollen einen kurzen Text schreiben der Sie vorstellt. Der Text soll 2
+Abschnitte haben und einen Titel. Verwenden Sie dafür die folgenden Elemente:
+`<h2>, <section>, <p>`.
