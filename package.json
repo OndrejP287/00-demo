@@ -1,5 +1,5 @@
 {
-    "name": "template",
+    "name": "demo-website",
     "version": "1.0.0",
     "main": "vite.config.js",
     "type": "module",
@@ -28,7 +28,7 @@
         "vitest": "^2.0.3"
     },
     "scripts": {
-        "start": "vite",
+        "dev": "vite",
         "build": "vite build",
         "test": "vitest --ui"
     },
