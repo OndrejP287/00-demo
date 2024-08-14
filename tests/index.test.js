@@ -129,4 +129,26 @@ describe('Einführung in HTML', () => {
             expect(elem.getAttribute('href')).toBe('https://www.gym-muttenz.ch')
         })
     })
+
+    describe('Aufgabe 06', () => {
+        test("Es gibt ein <section>-Element mit der ID 'ex-06' direkt im <main>-Element.", () => {
+            const elem = body.querySelector('main>section#ex-06')
+            expect(elem).not.toBeNull()
+        })
+
+        test('Dieses <section>-Element hat ein Bild darin.', () => {
+            const elem = body.querySelector('main>section#ex-06 img')
+            expect(elem).not.toBeNull()
+        })
+
+        test('Dieses <section>-Element hat ein <div> mit der Klasse "center" darin.', () => {
+            const elem = body.querySelector('main>section#ex-06>div.center')
+            expect(elem).not.toBeNull()
+        })
+
+        test('Das Bild befindet sich innerhalb von dem <div>-Element.', () => {
+            const elem = body.querySelector('main>section#ex-06>div.center>img')
+            expect(elem).not.toBeNull()
+        })
+    })
 })

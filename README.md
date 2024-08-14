@@ -49,6 +49,8 @@ sollen. Unterlagen zur Theorie wie `HTML` funktioniert finden Sie
 
 Fügen Sie Ihren Namen im Titel ein, und ersetzen Sie dabei die `...`.
 
+> **`Commit`** machen Sie eine neue Version wenn Sie mit der Aufgabe fertig sind!
+
 ### Aufgabe 02
 
 Fügen Sie ein `<section>`-Tag in die Webseite ein, und füllen Sie es mit einem
@@ -57,11 +59,15 @@ sehr kurzen Text.
 Platzieren Sie dieses `<section>`-Tag direkt unterhalb vom `<h1>`-Tag, noch
 innerhalb vom `<main>`-Tag.
 
+> **`Commit`** machen Sie eine neue Version wenn Sie mit der Aufgabe fertig sind!
+
 ### Aufgabe 03
 
 Sie sollen einen kurzen Text schreiben der Sie vorstellt. Der Text soll 2
 Abschnitte haben und einen Titel. Verwenden Sie dafür die folgenden Elemente:
 `<h2>, <section>, <p>`.
+
+> **`Commit`** machen Sie eine neue Version wenn Sie mit der Aufgabe fertig sind!
 
 ### Aufgabe 04
 
@@ -76,6 +82,8 @@ kurzen Text von mindestens 50 Zeichen enthalten, und die `ID` ist `ex-04`.
 > <div id="hier-ist-die-id">Hier ist der Inhalt des Elements.</div>
 > ```
 
+> **`Commit`** machen Sie eine neue Version wenn Sie mit der Aufgabe fertig sind!
+
 ### Aufgabe 05
 
 Fügen Sie wieder direkt im `<main>`-Element eine neues `<section>`-Element ein.
@@ -85,3 +93,20 @@ weiterleiten, und den Text `'Gym Muttenz'` anzeigen.
 
 > **Hinweis:** Wie man Links in `HTML` macht, sehen Sie
 > [hier](https://gymmu.github.io/gym-inf/html-attributes).
+
+> **`Commit`** machen Sie eine neue Version wenn Sie mit der Aufgabe fertig sind!
+
+### Aufgabe 06
+
+Fügen Sie ein weiteres `<section>`-Element direkt im `<main>`-Element ein.
+Dieses soll die `ID` von `ex-06` haben. In diesem Abschnitt sollen Sie ein Bild
+einfügen, und dieses Bild muss in einem `<div>`-Element mit der Klasse `center`
+sein.
+
+> **Hinweis:** Die Klasse ist ebenfalls ein `HTML`-Attribut das zum gestallten der
+> Elemente verwendet wird. Sie können
+> [hier](https://gymmu.github.io/gym-inf/html-attributes) mehr darüber lesen.
+> Wie man Bilder in `HTML` einbindet, finden Sie [hier](https://gymmu.github.io/gym-inf/html).
+
+> **`Commit`** machen Sie eine neue Version wenn Sie mit der Aufgabe fertig
+> sind!
