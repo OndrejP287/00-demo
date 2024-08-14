@@ -82,4 +82,23 @@ describe('Einführung in HTML', () => {
             })
         })
     })
+
+    describe('Aufgabe 04', () => {
+        test('Es gibt ein <section>-Element mit der ID "ex-04".', () => {
+            const elem = body.querySelector('section#ex-04')
+            expect(elem).not.toBeNull()
+        })
+
+        test('Dieses <section>-Element ist direkt innerhalb vom <main>-Element', () => {
+            const elem = body.querySelector('main>section#ex-04')
+            expect(elem).not.toBeNull()
+        })
+
+        test('Dieses <section>-Element hat mindestens 50 Zeichen Text darin.', () => {
+            const elem = body.querySelector('section#ex-04')
+            expect(elem).not.toBeNull()
+
+            expect(elem.textContent.trim().length).toBeGreaterThanOrEqual(50)
+        })
+    })
 })

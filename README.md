@@ -62,3 +62,16 @@ innerhalb vom `<main>`-Tag.
 Sie sollen einen kurzen Text schreiben der Sie vorstellt. Der Text soll 2
 Abschnitte haben und einen Titel. Verwenden Sie dafür die folgenden Elemente:
 `<h2>, <section>, <p>`.
+
+### Aufgabe 04
+
+Fügen Sie einen weiteren Abschnitt mit einer `ID` ein. Der Abschnitt soll einen
+kurzen Text von mindestens 50 Zeichen enthalten, und die `ID` ist `ex-04`.
+
+> **Hinweis:** `ID` ist ein `HTML`-Attribut. Sie können
+> [hier](https://gymmu.github.io/gym-inf/html-attributes) mehr dazu lesen. Ein
+> Beispiel von einem Element mit einer `ID` finden Sie hier.
+>
+> ```html
+> <div id="hier-ist-die-id">Hier ist der Inhalt des Elements.</div>
+> ```
