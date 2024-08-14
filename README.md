@@ -75,3 +75,13 @@ kurzen Text von mindestens 50 Zeichen enthalten, und die `ID` ist `ex-04`.
 > ```html
 > <div id="hier-ist-die-id">Hier ist der Inhalt des Elements.</div>
 > ```
+
+### Aufgabe 05
+
+Fügen Sie wieder direkt im `<main>`-Element eine neues `<section>`-Element ein.
+Dieses bekommt die `ID` `ex-05`. In diesem Abschnitt soll dann ein Link in den
+Text eingebaut werden. Der Link soll auf die Webseite vom Gymnasium Muttenz
+weiterleiten, und den Text `'Gym Muttenz'` anzeigen.
+
+> **Hinweis:** Wie man Links in `HTML` macht, sehen Sie
+> [hier](https://gymmu.github.io/gym-inf/html-attributes).

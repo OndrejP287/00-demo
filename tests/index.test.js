@@ -101,4 +101,32 @@ describe('Einführung in HTML', () => {
             expect(elem.textContent.trim().length).toBeGreaterThanOrEqual(50)
         })
     })
+
+    describe('Aufgabe 05', () => {
+        test("Es gibt ein <section>-Element mit der ID 'ex-05' direkt im <main>-Element.", () => {
+            const elem = body.querySelector('main>section#ex-05')
+            expect(elem).not.toBeNull()
+        })
+
+        test('Dieses <section>-Element hat ein <a>-Element darin.', () => {
+            const elem = body.querySelector('main>section#ex-05>a')
+            expect(elem).not.toBeNull()
+        })
+
+        test("Der Link zeigt den Text 'Gym Muttenz' an.", () => {
+            const elem = body.querySelector('main>section#ex-05>a')
+            expect(elem).not.toBeNull()
+
+            expect(elem.textContent.trim()).toBe('Gym Muttenz')
+        })
+
+        test("Der Link leitet auf die Seite 'https://www.gym-muttenz.ch' weiter.", () => {
+            const elem = body.querySelector('main>section#ex-05>a')
+            expect(elem).not.toBeNull()
+
+            console.log('HREF:', elem.getAttribute('href'))
+
+            expect(elem.getAttribute('href')).toBe('https://www.gym-muttenz.ch')
+        })
+    })
 })
