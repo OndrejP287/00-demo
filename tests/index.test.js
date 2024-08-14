@@ -59,5 +59,27 @@ describe('Einführung in HTML', () => {
             expect(elem).not.toBeNull()
             expect(elem.textContent.trim()).not.toBe('')
         })
+
+        test('Das <section>-Element mit dem Titel hat mindestens 2 <p>-Elemente.', () => {
+            const elem = body.querySelector('section:has(h2)')
+            expect(elem).not.toBeNull()
+
+            const paragraphs = elem.querySelectorAll('p')
+            expect(paragraphs).not.toBeNull()
+            expect(paragraphs.length).toBeGreaterThanOrEqual(2)
+        })
+
+        test('Jedes <p>-Element hat Text darin.', () => {
+            const elem = body.querySelector('section:has(h2)')
+            expect(elem).not.toBeNull()
+
+            const paragraphs = elem.querySelectorAll('p')
+            expect(paragraphs).not.toBeNull()
+            expect(paragraphs.length).toBeGreaterThanOrEqual(2)
+
+            paragraphs.forEach((p) => {
+                expect(p.textContent.trim()).not.toBe('')
+            })
+        })
     })
 })
