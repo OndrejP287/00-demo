@@ -39,9 +39,25 @@ describe('Einführung in HTML', () => {
             expect(elems.length).toBeGreaterThanOrEqual(2)
         })
 
-        test('Es gibt ein <section>-Element mit einem <h2> darin', () => {
+        test('Jedes <section>-Element hat einen Inhalt.', () => {
+            const elems = body.querySelectorAll('main>section')
+            expect(elems).not.toBeNull()
+            expect(elems.length).toBeGreaterThanOrEqual(2)
+
+            elems.forEach((elem) => {
+                expect(elem.textContent.trim()).not.toBe('')
+            })
+        })
+
+        test('Es gibt ein <section>-Element mit einem <h2> darin,', () => {
             const elem = body.querySelector('main>section>h2')
             expect(elem).not.toBeNull()
+        })
+
+        test('Das <h2>-Element hat Text darin.', () => {
+            const elem = body.querySelector('main>section>h2')
+            expect(elem).not.toBeNull()
+            expect(elem.textContent.trim()).not.toBe('')
         })
     })
 })
